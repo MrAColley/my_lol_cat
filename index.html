@@ -371,6 +371,7 @@ End All
 				<section>
 					<section>
 						<h2>Giving the pet a drink</h2>
+						<img src="images/Wharrgarbl.jpg" alt="Sprinkler Dog">
 						<p>Let's set up a way to give our pet a drink</p>
 						<p>Just like when we fed out pet we need a sprite to represent a drink. This time have a go at drawing the sprite and then setting up a script so that clicking on it decreases Pet_thirst</p>
 						<p>There's further instructions on the slides below, but try not to use them unless you have to.</p>
@@ -389,10 +390,52 @@ End All
 					<section>
 						<h2>Pets need hugs</h2>
 						<img src="images/Needy_Cat.jpg" alt="Needy Cat">
-						<p>The last script of this type we're going to make is one to make our pet happy.</p>
+						<p>The penultimate (second from last) script of this type we're going to make is one to make our pet happy.</p>
 						<p>Have a think about this one, before you scroll down and look at the hints.</p>
 						<p>We need the pet to start happy and get sadder and sadder as time goes on. When the pet's happiness reaches zero it should die. If you click on the pet (we can't really give it a hug), it's happiness should increase</p>
+						<p>Have a go at completing this yourself before using the hints below</p>
 					</section>
+					<section>
+						<h2>The pseudocode</h2>
+						<pre><code>
+when "Green Flag" clicked
+set Pet_Contentment to 100
+repeat until Pet_Contentment = 0
+	change Pet_Thirst by -1
+	wait 1 second
+Pet_Death
+End All
+						</code></pre>
+					</section>
+					<section>
+						<h2>The Blocks</h2>
+						<img src="images/Contentment_Blocks.png" alt="Contentment Blocks">
+					</section>
+					<section>
+						<h2>The Script</h2>
+						<img src="images/Contentment_Script.png" alt="Contenment Script">
+					</section>
+					<section>
+						<h2>The video</h2>
+						<video controls preload>
+  							<source src="video/Contentment_script.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+  							<source src="video/Contentment_script.webm" type='video/webm; codecs="vp8, vorbis"'>
+  							<source src="video/Contentment_script.ogv"  type='video/ogg; codecs="theora, vorbis"'>
+						</video>
+					</section>
+				</section>
+
+				<section>
+					<h2>Pets get sleepy</h2>
+					<img src="images/Sleepy_Cat.gif" alt="Sleepy Cat">
+					<p>The next one is up to you and you alone. Create a script using a variable called Pet_Tiredness. It should start with a value of 0 and gradually increase up to 100, at which point the pet dies.</p>
+					<p>The player can rest the pet by clicking on a pet-bed (you can find, import or create your own sprite).</p></br>
+					<em>Once you've completed the script, get your teacher to check it.</em>
+				</section>
+
+				<section>
+					<h2>The setup so far</h2>
+					<img src="images/Basic_Scripts.png" alt="Basic Scripts">
 				</section>
 
 					
