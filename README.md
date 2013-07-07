@@ -1,4 +1,4 @@
-my_lol_cat
+VirtualPet
 ==========
 
-my_lol_cat
+An introduction to Scratch
