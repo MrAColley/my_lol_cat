@@ -438,9 +438,61 @@ End All
 					<img src="images/Basic_Scripts.png" alt="Basic Scripts">
 				</section>
 
-					
-
+				<section>
+					<h2>Customising your Virtual lol Cat</h2>
+					<img src="images/Computer_Cat.jpg" alt="Computer Cat" width=500>
+					<p>Now for some customisation.</p>
+					<p>At the moment all the variables are initialised (started) at either 0 or 100. They also change be increments of 1 or -1 and do so in 1 second steps.</p>
+					<p>Customise your script a little. Maybe Pet_Tiredness can start at 200 and be reduced by 0.1 every 2 seconds, for instance</p>
+					<p>Play around with your variables and loops until you are happy with your game. Then we can move on to the next section.</p>
 				</section>
+
+				<section>
+					<section>
+						<h2>Getting the pet to talk to you.</h2>
+						<img src="images/Cheezburger.jpg" alt="I can haz Cheezburger?">
+						<p>It might be a good idea to get rid of the variables that are displayed on the game screen and instead have the pet sprite warn when it is getting hungry/thirsty or tired</p>
+						<p>We'll do it the easy way first and then make it a little tricky</p>
+						<p>Scroll down to get started.</p>
+					</section>
+					<section>
+						<h2>A forever loop</h2>
+						<p>forever loops are quite useful. They will run and run and run. We can use forever loops to constantly 'listen' out for an event, like a variable hitting a certain value</p>
+						<p>We're going to use a forever loop to 'listen' out for when the pet is hungry, and then get it to run a function.</p>
+					</section>	
+					<section>
+						<h2>The pseudocode</h2>
+						<p>We're going to need two scripts here. The first will be a forever loop that listens out for when pet hunger gets too high</p>
+						<p>The second will be a function that runs when called within the forever loop</p>
+						<pre><code>
+def hungry
+	ask 'I CAN HAZ CHEEZBURGER?' for two seconds
+						</code>
+						<code>
+when "Green Flag" clicked
+	forever
+		if Pet_Hunger > 75
+			hungry
+						</code></pre>
+					</section>
+					<section>
+						<h2>The Blocks</h2>
+						<img src="images/Hungry_Blocks.png" alt="Hungry Script">
+					</section>
+					<section>
+						<h2>The Script</h2>
+						<img src="images/Hungry_Script.png" alt="Hungry Script">
+					</section>
+					<section>
+						<h2>The video</h2>
+						<video controls preload>
+								<source src="video/Hungry_Scripts.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+								<source src="video/Hungry_Scripts.webm" type='video/webm; codecs="vp8, vorbis"'>
+								<source src="video/Hungry_Scripts.ogv"  type='video/ogg; codecs="theora, vorbis"'>
+						</video>
+					</section>
+				</section>
+					
 
 
 			</div>
