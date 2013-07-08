@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+
+		<title>A Virtual Pet in Scratch</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="A%20Virtual%20Pet%20in%20Scratch_files/reveal.css">
+		<link rel="stylesheet" href="A%20Virtual%20Pet%20in%20Scratch_files/blackboard.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="A%20Virtual%20Pet%20in%20Scratch_files/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script><link rel="stylesheet" href="A%20Virtual%20Pet%20in%20Scratch_files/paper.css" type="text/css" media="print">
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body style="transition: -moz-transform 0.8s ease 0s;">
+
+		<div data-transition-speed="default" class="reveal default center">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div style="width: 960px; height: 700px; transform: translate(-50%, -50%) scale(0.907714) translate(50%, 50%);" class="slides">
+
+				<section class="past" style="top: -20px; display: none;">
+					<h2>Making a Virtual LOL Cat</h2>
+					<h3>An Introduction to Scratch</h3>
+					<p>
+						<small>a project by Marc Scott</small>
+					</p>
+				</section>
+
+				<section class="past" style="top: -20px; display: none;">
+					<h2>How to use this resource</h2>
+					<ul>
+						<li>Read the slides. This is important.</li>
+						<li>Read first and only then ask your teacher if you don't understand.</li>
+						<li>Pay attention to the compass points at the bottom of the 
+screen. You navigate using the cursor keys (or swiping on a 
+tablet/phone).</li>
+						<li>Normally you navigate by going right, and navigating down if you are stuck and need more help.</li>
+					</ul>
+				</section>
+				<section class="past" style="top: -20px; display: none;">
+					<a class="image"><img src="A%20Virtual%20Pet%20in%20Scratch_files/GUI.png" alt="GUI" width="600px"></a><br>
+					<p>Scratch is a programming language that can be used to make small programs and games.<br> Above is the Graphical User Interface (GUI) for Scratch.<br>A GUI is how the a user interacts with software.</p>
+				</section>
+
+				<section class="past" style="top: -20px; display: none;">
+					<p>The screen is split into four main sections</p>
+					<img src="A%20Virtual%20Pet%20in%20Scratch_files/KEY.png" alt="Key" width="600px"><br>
+					<ol>	
+						<li>The Blocks Palette</li>
+						<li>The Scripts Area</li>
+						<li>The Stage</li>
+						<li>The Sprite List</li>
+					</ol>
+				</section>
+				<section class="past stack" style="top: -20px; display: none;">
+					<section style="top: -20px;">
+						<h2>Getting to know Scratch</h2>
+						<p>
+							Scratch works by dragging blocks of code from the blocks palate 
+into the script area. These blocks then can be stacked to create 
+scripts. Scripts can be used to control sprites and a host of other 
+things.
+						</p>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Practice_Script.png" alt="Practice" width="600">
+						<p>If you've never used Scrath before, you might want to check the slide below to see how to build scripts.</p>
+					</section>
+					<section style="top: -20px;">
+						<h2>Watch the video to learn how to build scripts.</h2>
+						<p>Just watch, don't copy</p>
+							<video controls="controls" preload="">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Practice_Movie.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Practice_Movie.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Practice_Movie.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+						</video>
+					</section>
+				</section>
+
+				<section class="past" style="top: -20px; display: none;">
+					<h2>Objectives</h2>
+					<p>The purpose of this project is to bring you up to speed in Scratch.<br>You all probably have different skill levels, so this project is self-paced, which allows you to go at your own speed.</p>
+				</section>
+				<section class="past" style="top: -295px; display: block;">
+					By the end of this project you should all know:<p></p>
+					<br>
+					<img src="A%20Virtual%20Pet%20in%20Scratch_files/Script_Elements.png" alt="Script Elements">
+					<br>
+					<ol>
+						<li>What a variable is and how it is used</li>
+						<li>What an operator is and how it is used</li>
+						<li>What a function is and how is is used</li>
+						<li>What a loop is and how it is used</li>
+						<li>What a list is and how it is used</li>
+					</ol>
+				</section>
+
+				<section class="past" style="top: -292.5px; display: block;">
+					<h2>A Virtual LOL Cat</h2>
+					<img src="A%20Virtual%20Pet%20in%20Scratch_files/Tamagotchi.jpg" alt="Tamagotchi" width="200">
+					<p>Virtual pets are computer programs. The owner has to interact 
+with the program to keep their pet alive and happy. They can feed and 
+stroke the pet, or tell it to go to sleep</p>
+				</section>
+
+				<section class="past" style="top: -117px; display: block;">
+					<p>The aim of this project is to create a virtual pet. The pet will
+ need to be fed, rested, given a drink and petted, as well as other 
+things you can think of. If the player does not take care of the pet 
+then it will die.</p>
+				</section>
+
+				<section class="stack present" style="top: 0px; display: block;">
+					<section class="past" style="top: -124.5px; display: block;">
+						<h2>Our first script</h2>
+						<p>Our first script will make the cat die!!!</p>
+						<p>Have a look at the slide below to see how it is done.</p>
+					</section>
+
+					<section class="present" style="top: -350px; display: block;">
+						<h3>Creating a new Costume</h3>
+						<p>First we need to create a new costume for the cat. This will be how it looks once it has died</p>
+						<p>Edit the name of the Sprite by clicking on the little blue <em>i</em></p>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Sprite.png" alt="Sprite">
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Sprite_Attributes.png" alt="Sprite Properties">
+						<video controls="controls" preload="">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Name_Change.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" width="50%">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Name_Change.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" width="50%">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Name_Change.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;" width="50%">
+						</video>
+					</section>
+
+					<section class="future" style="top: -235px; display: block;">
+						<p>Now click on the <em>Costumes</em> tab and then rename the first costume to <em>Alive_Pet</em></p>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Costumes.png" alt="Costumes" width="200">
+						<p>There's a video below showing how to do this if you're stuck/</p>
+					</section>
+				
+
+					<section class="future" style="top: -318px; display: block;">
+						<p>Now you'll need to import a new costume for your Pet. Use the image below to help you out here. I chose the angry ghost for mine</p>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Edit_Costumes.png" alt="Add second costume" <="" img="" width="600">
+					</section>
+
+					<section class="future" style="top: -265.5px; display: block;">
+						<p>We're going to build a test script first and then use it in a Block if it works.</p><p>
+						</p><p>If you're used to using Scratch, then look at the <em>pseudocode (pretend code)</em> below and see if you can build the script yourself. If not then skip to the slide beneath.</p>
+						<pre><code class="coffeescript">
+<span class="keyword">when</span> the space key <span class="keyword">is</span> pressed
+say <span class="string">"You let me die"</span>
+<span class="keyword">switch</span> to Dead_Pet Costume
+glide <span class="keyword">for</span> <span class="number">4</span> seconds to x:x, y:<span class="number">225</span>
+hide sprite
+						</code></pre>
+						<p>If you complete the script at any point then skip to the slide to the right</p>
+					</section>
+
+					<section class="future" style="top: -20px; display: none;">
+						<p>Here are all the blocks you need to make the script. See if you can assemble the script now</p>
+						<pre><code class="coffeescript">
+<span class="keyword">when</span> the space key <span class="keyword">is</span> pressed
+say <span class="string">"You let me die"</span>
+<span class="keyword">switch</span> to Dead_Pet Costume
+glide <span class="keyword">for</span> <span class="number">4</span> seconds to x:x, y:<span class="number">225</span>
+hide sprite
+						</code></pre>						
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Death_Blocks.png" alt="Blocks for death script">
+						<p>If you need more help then go to the slide below.</p>
+					</section>
+
+					<section class="future" style="top: -173px; display: block;">
+						<p>Here is the completed Script</p>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Death_Script.png" alt="Death Script">
+						<p>If you struggle to put it together then look at the slide below</p>
+					</section>
+					
+					<section class="future" style="top: -322px; display: block;">
+						<p>Here's a video showing the script being constructed</p>
+						<video controls="controls" preload="">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Death_Script.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Death_Script.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Deatch_Script.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+						</video>
+					</section>
+				</section>	
+
+				<section class="future stack" style="top: 0px; display: block;">
+					<section style="top: -20px;">
+						<h2>A Problem</h2>
+						<p>If you're script works then when you hit space the Cat dies</p>
+						<p>However, he stays dead and we can't run the script again</p>
+						<video controls="controls">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Death_Animation.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Death_Animation.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Deatch_Animation.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+						</video>
+					</section>
+
+					<section style="top: -20px;">
+						<h2>Reset Script</h2>
+						<p>We're now going to make a script that we can use to reset the Cat sprite</p>
+						<p>If you're getting the hang of this now then just follow the 
+psudocode below, if not then got to the next slide down. Once you've 
+built a succesful script navigate right</p>
+						<pre><code class="sql">
+When 'Green Flag' clicked
+Switch to Costume "Alive_Pet"
+<span class="operator"><span class="keyword">Show</span> Sprite
+<span class="keyword">Goto</span> position x:<span class="number">0</span>, y:-<span class="number">125</span>
+						</span></code></pre>
+					</section>
+
+					<section style="top: -20px;">
+						<p>Here are all the blocks you need to make the script. See if you can assemble the script now</p>
+						<pre><code class="sql">
+When 'Green Flag' clicked
+Switch to Costume "Alive_Pet"
+<span class="operator"><span class="keyword">Show</span> Sprite
+<span class="keyword">Goto</span> position x:<span class="number">0</span>, y:-<span class="number">125</span>
+						</span></code></pre>						
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Reset_Blocks.png" alt="Blocks for reset">
+						<p>If you need more help then go to the slide below.</p>
+					</section>
+
+					<section style="top: -20px;">
+						<p>Here is the completed Script</p>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Reset_Script.png" alt="Reset Script">
+						<p>If you struggle to put it together then look at the slide below</p>
+					</section>
+					
+					<section style="top: -20px;">
+						<p>Here's a video showing the script being constructed</p>
+						<video controls="controls" preload="">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Reset_Script.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Reset_Script.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Reset_Script.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+						</video>
+					</section>
+				</section>
+
+				<section class="future" style="top: -350px; display: block;">
+					<h2>Functions</h2>
+					<p>Functions are extremely important. They allow is to keep out 
+scripts tidy by grouping them into Blocks. They also allow us to run the
+ same code over and over again in different parts of our program</p>
+					<p>This part is easy. You just need to create a new function (Scratch calls them Blocks) and call it Pet_Death.</p>
+					<p>Next replace this the "When Space is pressed", with your new function.</p>
+					<p>It should look like this</p>
+					<img src="A%20Virtual%20Pet%20in%20Scratch_files/Function.png" alt="Function">
+					<p>If can't figure it out then skip it for now, as it's shown in the video in the last part of the next section</p>
+				</section>
+
+				<section class="future stack" style="top: 0px; display: block;">
+					<section style="top: -20px;">
+						<h2>Making the Pet get hungry</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Hungry_Cat.jpg" alt="Hungry Cat" height="50%">
+						<p>We're now going to make a script that will make the cat get hungry</p>
+						<p>For this we're going to need a <em>variable</em></p><br>
+					</section>
+					<section style="top: -20px;">
+						<p>A variable is made up of two things</p>
+						<ol>
+							<li class="fragment roll-in">A storage location for some data (like numbers or letters)</li>
+							<li class="fragment roll-in">A name that points to that location</li>
+						</ol>
+						<br>
+						<p class="fragment roll-in">In other words, we can use a variable to store some data in out program</p>
+					</section>
+
+					<section style="top: -20px;">
+						<p>Here's the pseudocode</p>
+						<pre><code class="sql">
+when "Green Flag" clicked
+<span class="operator"><span class="keyword">set</span> Pet_Hunger <span class="keyword">to</span> <span class="number">0</span>
+repeat until Pet_Hunger=<span class="number">100</span>
+	change Pet_Hunger <span class="keyword">by</span> <span class="number">1</span>
+	wait <span class="number">1</span> <span class="keyword">second</span>
+Pet_Death
+<span class="keyword">End</span> <span class="keyword">All</span>
+						</span></code></pre>
+					</section>
+
+					<section style="top: -20px;">
+						<p>Here are all the blocks you need to make the script. See if you can assemble the script now</p>
+						<pre><code class="sql" data-trim="" style="font-size: 18px; margin-top: 20px;" contenteditable="">when "Green Flag" clicked
+<span class="operator"><span class="keyword">set</span> Pet_Hunger <span class="keyword">to</span> <span class="number">0</span>
+repeat until Pet_Hunger=<span class="number">100</span>
+	change Pet_Hunger <span class="keyword">by</span> <span class="number">1</span>
+	wait <span class="number">1</span> <span class="keyword">second</span>
+Pet_Death
+<span class="keyword">End</span> <span class="keyword">All</span></span></code></pre>						
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Hunger_Blocks.png" alt="Blocks for reset">
+						<p>If you need more help then go to the slide below.</p>
+					</section>
+
+					<section style="top: -20px;">
+						<p>Here is the completed Script</p>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Hunger_Script.png" alt="Reset Script">
+						<p>If you struggle to put it together then look at the slide below</p>
+					</section>
+					
+					<section style="top: -20px;">
+						<p>Here's a video showing the script being constructed</p>
+						<video controls="controls" preload="">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Hunger_Script.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Hunger_Script.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Hunger_Script.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+						</video>
+					</section>
+				</section>
+
+				<section class="future stack" style="top: -20px; display: none;">
+				<section style="top: -20px;">
+					<h2>Breaking down the script</h2>
+					<p>You've actually just used some fairly complicated concepts in Computing</p>
+				</section>
+				<section style="top: -20px;">
+					<h3>Variables</h3>
+					<p>The variable starts of storing the number 0. But we can change 
+that number at any time we like. We added 1 to it within a loop. The 
+name of the variable stays the same, but the number it points to can 
+change.</p>
+				</section>
+				<section style="top: -20px;">
+					<h3>Loops</h3>
+					<p>Loops are very powerful. We can cause the same set of 
+instructions to happen over and over again, until some condition is met.
+ In this case the;</p>
+					<pre><code class="perl">
+change Pet_Hunger by <span class="number">1</span>
+<span class="keyword">wait</span> <span class="number">1</span> second
+					</code></pre>
+					<p>keeps happening until Pet_Hunger reaches 100. Then the loop ends and the script continues</p>
+				</section>		
+				</section>
+
+				<section class="future stack" style="top: -20px; display: none;">	
+					<section style="top: -20px;">
+						<h2>Pets get hungry</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Pringle_Cat.jpg" alt="Pringle Cat">
+						<p>So we now have a program that basically kills a Cat</p>
+						<p>To make this into a more entertaining game, we need to be able to feed our pet</p>
+					</section>
+					<section style="top: -20px;">
+						<ol>
+							<li>Create a new Sprite and choose a costume for it, one that looks like food.</li>
+							<li>Give the Sprite a sensible name like Pet_Food.</li>
+							<li>Create the script detailed below.</li>
+						</ol>
+						<pre><code class="coffeescript">
+	<span class="keyword">when</span> Pet_Food clicked
+	change Pet_Hunger <span class="keyword">by</span> -<span class="number">10</span>
+						</code></pre>
+						<p>There's a video on the slide below</p>
+					</section>
+
+					<section style="top: -20px;">
+						<video controls="controls" preload="">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Feed_Script.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Feed_Script.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Feed_Script.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+						</video>
+					</section>
+				</section>
+				<section class="future stack" style="top: -20px; display: none;">
+					<section style="top: -20px;">
+						<h2>Pets get thirsty</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Drinking_Cat.jpg" alt="Drinking Cat" height="50%">
+						<p>We now need to create a new script that will make our pet get thirsty.</p>
+						<p>We're going to use the same method as we used to make the pet get hungry.</p>
+						<p>Give it a go now, but if you need help then there's further instructions on the slides below</p>
+					</section>
+					<section style="top: -20px;">
+						<h2>The pseudocode</h2>
+						<p>Firstly create a new variable called Pet_Thirst</p>
+						<pre><code class="sql">
+when "Green Flag" clicked
+<span class="operator"><span class="keyword">set</span> Pet_Thirst <span class="keyword">to</span> <span class="number">0</span>
+repeat until Pet_Thirst=<span class="number">100</span>
+	change Pet_Thirst <span class="keyword">by</span> <span class="number">1</span>
+	wait <span class="number">1</span> <span class="keyword">second</span>
+Pet_Death
+<span class="keyword">End</span> <span class="keyword">All</span>
+						</span></code></pre>
+					</section>
+					<section style="top: -20px;">
+						<h2>The blocks</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Thirst_Blocks.png" alt="Thrist Blocks">
+					</section>
+					<section style="top: -20px;">
+						<h2>The script</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Thrist_Script.png" alt="Thirst Script">
+					</section>
+					<section style="top: -20px;">
+						<h2>The video</h2>
+							<video controls="controls" preload="">
+  								<source src="A%20Virtual%20Pet%20in%20Scratch_files/Thirst_Script.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+  								<source src="A%20Virtual%20Pet%20in%20Scratch_files/Thirst_Script.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+  								<source src="A%20Virtual%20Pet%20in%20Scratch_files/Thirst_Script.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+							</video>
+					</section>
+				</section>
+
+				<section class="future stack" style="top: -20px; display: none;">
+					<section style="top: -20px;">
+						<h2>Giving the pet a drink</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Wharrgarbl.jpg" alt="Sprinkler Dog">
+						<p>Let's set up a way to give our pet a drink</p>
+						<p>Just like when we fed out pet we need a sprite to represent a 
+drink. This time have a go at drawing the sprite and then setting up a 
+script so that clicking on it decreases Pet_thirst</p>
+						<p>There's further instructions on the slides below, but try not to use them unless you have to.</p>
+					</section>
+					<section style="top: -20px;">
+						<h2>The video</h2>
+						<video controls="controls" preload="">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Drawing_Water.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Drawing_Water.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Drawing_Water.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+						</video>
+
+					</section>
+				</section>
+				<section class="future stack" style="top: -20px; display: none;">
+					<section style="top: -20px;">
+						<h2>Pets need hugs</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Needy_Cat.jpg" alt="Needy Cat">
+						<p>The penultimate (second from last) script of this type we're going to make is one to make our pet happy.</p>
+					</section>
+					<section style="top: -20px;">
+						<p>Have a think about this one, before you scroll down and look at the hints.</p>
+						<p>We need the pet to start happy and get sadder and sadder as 
+time goes on. When the pet's happiness reaches zero it should die. If 
+you click on the pet (we can't really give it a hug), it's happiness 
+should increase</p>
+						<p>Have a go at completing this yourself before using the hints below</p>
+					</section>
+					<section style="top: -20px;">
+						<h2>The pseudocode</h2>
+						<pre><code class="sql">
+when "Green Flag" clicked
+<span class="operator"><span class="keyword">set</span> Pet_Contentment <span class="keyword">to</span> <span class="number">100</span>
+repeat until Pet_Contentment = <span class="number">0</span>
+	change Pet_Thirst <span class="keyword">by</span> -<span class="number">1</span>
+	wait <span class="number">1</span> <span class="keyword">second</span>
+Pet_Death
+<span class="keyword">End</span> <span class="keyword">All</span>
+						</span></code></pre>
+					</section>
+					<section style="top: -20px;">
+						<h2>The Blocks</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Contentment_Blocks.png" alt="Contentment Blocks">
+					</section>
+					<section style="top: -20px;">
+						<h2>The Script</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Contentment_Script.png" alt="Contenment Script">
+					</section>
+					<section style="top: -20px;">
+						<h2>The video</h2>
+						<video controls="controls" preload="">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Contentment_script.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Contentment_script.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+  							<source src="A%20Virtual%20Pet%20in%20Scratch_files/Contentment_script.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+						</video>
+					</section>
+				</section>
+
+				<section class="future" style="top: -20px; display: none;">
+					<h2>Pets get sleepy</h2>
+					<img src="A%20Virtual%20Pet%20in%20Scratch_files/Sleepy_Cat.gif" alt="Sleepy Cat" height="40%">
+					<p>The next one is up to you and you alone. Create a script using a
+ variable called Pet_Tiredness. It should start with a value of 0 and 
+gradually increase up to 100, at which point the pet dies.</p>
+					<p>The player can rest the pet by clicking on a pet-bed (you can find, import or create your own sprite).</p><br>
+					<em>Once you've completed the script, get your teacher to check it.</em>
+				</section>
+
+				<section class="future" style="top: -20px; display: none;">
+					<h2>The setup so far</h2>
+					<img src="A%20Virtual%20Pet%20in%20Scratch_files/Basic_Scripts.png" alt="Basic Scripts">
+				</section>
+
+				<section class="future" style="top: -20px; display: none;">
+					<h2>Customising your Virtual lol Cat</h2>
+					<img src="A%20Virtual%20Pet%20in%20Scratch_files/Computer_Cat.jpg" alt="Computer Cat" width="30%">
+					<p>Now for some customisation.</p>
+					<p>At the moment all the variables are initialised (started) at 
+either 0 or 100. They also change be increments of 1 or -1 and do so in 1
+ second steps.</p>
+					<p>Customise your script a little. Maybe Pet_Tiredness can start at 200 and be reduced by 0.1 every 2 seconds, for instance</p>
+					<p>Play around with your variables and loops until you are happy with your game. Then we can move on to the next section.</p>
+				</section>
+
+				<section class="future stack" style="top: -20px; display: none;">
+					<section style="top: -20px;">
+						<h2>Getting the pet to talk to you.</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Cheezburger.jpg" alt="I can haz Cheezburger?" height="40%">
+						<p>It might be a good idea to get rid of the variables that are 
+displayed on the game screen and instead have the pet sprite warn when 
+it is getting hungry/thirsty or tired</p>
+						<p>We'll do it the easy way first and then make it a little tricky</p>
+						<p>Scroll down to get started.</p>
+					</section>
+					<section style="top: -20px;">
+						<h2>A forever loop</h2>
+						<p>forever loops are quite useful. They will run and run and run. 
+We can use forever loops to constantly 'listen' out for an event, like a
+ variable hitting a certain value</p>
+						<p>We're going to use a forever loop to 'listen' out for when the pet is hungry, and then get it to run a function.</p>
+					</section>	
+					<section style="top: -20px;">
+						<h2>The pseudocode</h2>
+						<p>We're going to need two scripts here. The first will be a forever loop that listens out for when pet hunger gets too high</p>
+						<p>The second will be a function that runs when called within the forever loop</p>
+						<pre><code class="ruby">
+<span class="function"><span class="keyword">def</span> <span class="title">hungry</span></span>
+	ask <span class="string">'I CAN HAZ CHEEZBURGER?'</span> <span class="keyword">for</span> two seconds
+						</code>
+						<code>
+when "Green Flag" clicked
+	forever
+		if Pet_Hunger &gt; 75
+			hungry
+						</code></pre>
+					</section>
+					<section style="top: -20px;">
+						<h2>The Blocks</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Hungry_Blocks.png" alt="Hungry Script">
+					</section>
+					<section style="top: -20px;">
+						<h2>The Script</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Hungry_Script.png" alt="Hungry Script">
+					</section>
+					<section style="top: -20px;">
+						<h2>The video</h2>
+						<video controls="controls" preload="">
+								<source src="A%20Virtual%20Pet%20in%20Scratch_files/Hungry_Scripts.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+								<source src="A%20Virtual%20Pet%20in%20Scratch_files/Hungry_Scripts.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+								<source src="A%20Virtual%20Pet%20in%20Scratch_files/Hungry_Scripts.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+						</video>
+					</section>
+				</section>
+				<section class="future" style="top: -20px; display: none;">
+					<h2>Adding some randomness</h2>
+					<img src="A%20Virtual%20Pet%20in%20Scratch_files/Confused_Cat.jpg" alt="Confused Cat">
+					<p>It get's boring if all the cat says is</p>
+					<blockquote>"I CAN HAZ CHEEZBURGER?"</blockquote>
+					<p>Lets add some randomness by using a list.</p>
+				</section>
+				<section class="future stack" style="top: -20px; display: none;">
+					<section style="top: -20px;">
+						<h2>Lists</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/List_Cat.jpg" alt="List Cat">
+						<p>Lists are a type of <em>Data Structure</em>.</p>
+					</section>
+					<section style="top: -20px;">
+						<h2>An example</h2>
+					<br>
+						<ol>
+							<li>OH HAI</li>
+							<li>R U K?</li>
+							<li>K THX BAI</li>
+						</ol>
+					<br>
+					<br>
+						<p>This is an example of a list. It contains three items. They are all strings (letters).</p>
+						<p>We could put numbers into a list instead if we wanted.</p>
+						<p>The list is ordered. For instance, the second item is "R U K?"</p>
+					</section>
+					<section style="top: -20px;">
+						<h2>Creating a list</h2>
+						<p>You're going to need to create a list and fill it with about five sentences.</p>
+						<p>Each sentence should be asking for food in some form</p>
+						<p>You can use normal English or <a class="roll" href="http://speaklolcat.com/"><span data-title="lol speak">lol speak</span></a> if you want.</p>
+					</section>
+					<section style="top: -20px;">
+						<h2>The video</h2>
+						<video controls="controls" preload="">
+								<source src="A%20Virtual%20Pet%20in%20Scratch_files/List_Elements.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+								<source src="A%20Virtual%20Pet%20in%20Scratch_files/List_Elements.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+								<source src="A%20Virtual%20Pet%20in%20Scratch_files/List_Elements.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+						</video>
+					</section>
+				</section>
+				<section class="future stack" style="top: -20px; display: none;">
+					<section style="top: -20px;">
+						<h2>Speaking from the list</h2>
+						<p>Next we're going to get the pet to select random elements of the list to say</p>
+						<p>To do this we're going to edit the Hungry function</p>
+						<p>Here's the pseudocode</p>
+						<pre><code class="ruby">
+<span class="function"><span class="keyword">def</span> <span class="title">hungry</span></span>
+	say item (random from <span class="number">1</span> to <span class="number">5</span>) from <span class="constant">Hungry</span>
+						</code></pre>
+					</section>
+					<section style="top: -20px;">
+						<h2>The blocks</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Random_Block.png" alt="Random Blocks">
+					</section>
+					<section style="top: -20px;">
+						<h2>The Script</h2>
+						<img src="A%20Virtual%20Pet%20in%20Scratch_files/Random_Script.png" alt="Random Script">
+					</section>
+					<section style="top: -20px;">
+						<h2>The video</h2>
+						<video controls="controls" preload="">
+								<source src="A%20Virtual%20Pet%20in%20Scratch_files/Random_List.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+								<source src="A%20Virtual%20Pet%20in%20Scratch_files/Random_List.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+								<source src="A%20Virtual%20Pet%20in%20Scratch_files/Random_List.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+						</video>
+					</section>
+
+				</section>
+
+
+
+			</div>
+
+		<div style="display: block;" class="progress"><span style="width: 239.833px;"></span></div><aside style="display: block;" class="controls"><div class="navigate-left enabled"></div><div class="navigate-right enabled"></div><div class="navigate-up enabled"></div><div class="navigate-down enabled"></div></aside><div class="state-background"></div><div class="pause-overlay"></div></div>
+
+		<script src="A%20Virtual%20Pet%20in%20Scratch_files/head.js"></script>
+		<script src="A%20Virtual%20Pet%20in%20Scratch_files/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script><script src="A%20Virtual%20Pet%20in%20Scratch_files/highlight.js" type="text/javascript"></script><script src="A%20Virtual%20Pet%20in%20Scratch_files/zoom.js" type="text/javascript"></script><script src="A%20Virtual%20Pet%20in%20Scratch_files/notes.js" type="text/javascript"></script>
+
+	
+
+</body></html>
