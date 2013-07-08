@@ -108,6 +108,7 @@
 						<h2>Our first script</h2>
 						<p>When we write programs, it's a good idea to create scripts that we can use over and over again. These are often called <em>procedures</em> or <em>functions</em>. In Scratch they're called <em>Blocks</em></p>
 						<p>Our first Block will make the cat die!!!</p>
+						<p>Have a look at the slide below to see how it is done.</p>
 					</section>
 
 					<section>
@@ -221,7 +222,7 @@ Goto position x:0, y:-125
 
 				<section>
 					<h2>Functions</h2>
-					<p>Functions are extremely important. They allow is to keep out scripts tidy by grouping them into Blocks. They also allow us to run the same code over and over again in different parts of out program</p>
+					<p>Functions are extremely important. They allow is to keep out scripts tidy by grouping them into Blocks. They also allow us to run the same code over and over again in different parts of our program</p>
 					<p>This part is easy. You just need to create a new function (Scratch calls them Blocks) and call it Pet_Death.</p>
 					<p>Next replace this the "When Space is pressed", with your new function.</p>
 					<p>It should look like this</p>
@@ -232,8 +233,11 @@ Goto position x:0, y:-125
 				<section>
 					<section>
 						<h2>Making the Pet get hungry</h2>
+						<img src="images/Hungry_Cat.jpg" alt="Hungry Cat" height="50%">
 						<p>We're now going to make a script that will make the cat get hungry</p>
 						<p>For this we're going to need a <em>variable</em></p><br/>
+					</section>
+					<section>
 						<p>A variable is made up of two things</p>
 						<ol>
 							<li class="fragment roll-in">A storage location for some data (like numbers or letters)</li>
@@ -288,17 +292,23 @@ End All
 				</section>
 
 				<section>
+				<section>
 					<h2>Breaking down the script</h2>
-					<p>You've actually just used some fairly complicaed concepts in Computing</p>
+					<p>You've actually just used some fairly complicated concepts in Computing</p>
+				</section>
+				<section>
 					<h3>Variables</h3>
 					<p>The variable starts of storing the number 0. But we can change that number at any time we like. We added 1 to it within a loop. The name of the variable stays the same, but the number it points to can change.</p>
+				</section>
+				<section>
 					<h3>Loops</h3>
 					<p>Loops are very powerful. We can cause the same set of instructions to happen over and over again, until some condition is met. In this case the;</p>
 					<pre><code>
 change Pet_Hunger by 1
 wait 1 second
 					</code></pre>
-					<p>keeps happening until Pet_Hunger reaches 100. Then the loop ends and the script continues</p>			
+					<p>keeps happening until Pet_Hunger reaches 100. Then the loop ends and the script continues</p>
+				</section>		
 				</section>
 
 				<section>	
@@ -332,7 +342,7 @@ wait 1 second
 				<section>
 					<section>
 						<h2>Pets get thirsty</h2>
-						<img src="images/Drinking_Cat.jpeg" alt="Drinking Cat">
+						<img src="images/Drinking_Cat.jpeg" alt="Drinking Cat" height="50%">
 						<p>We now need to create a new script that will make our pet get thirsty.</p>
 						<p>We're going to use the same method as we used to make the pet get hungry.</p>
 						<p>Give it a go now, but if you need help then there's further instructions on the slides below</p>
@@ -391,6 +401,8 @@ End All
 						<h2>Pets need hugs</h2>
 						<img src="images/Needy_Cat.jpg" alt="Needy Cat">
 						<p>The penultimate (second from last) script of this type we're going to make is one to make our pet happy.</p>
+					</section>
+					<section>
 						<p>Have a think about this one, before you scroll down and look at the hints.</p>
 						<p>We need the pet to start happy and get sadder and sadder as time goes on. When the pet's happiness reaches zero it should die. If you click on the pet (we can't really give it a hug), it's happiness should increase</p>
 						<p>Have a go at completing this yourself before using the hints below</p>
@@ -427,7 +439,7 @@ End All
 
 				<section>
 					<h2>Pets get sleepy</h2>
-					<img src="images/Sleepy_Cat.gif" alt="Sleepy Cat">
+					<img src="images/Sleepy_Cat.gif" alt="Sleepy Cat" height="40%">
 					<p>The next one is up to you and you alone. Create a script using a variable called Pet_Tiredness. It should start with a value of 0 and gradually increase up to 100, at which point the pet dies.</p>
 					<p>The player can rest the pet by clicking on a pet-bed (you can find, import or create your own sprite).</p></br>
 					<em>Once you've completed the script, get your teacher to check it.</em>
@@ -440,7 +452,7 @@ End All
 
 				<section>
 					<h2>Customising your Virtual lol Cat</h2>
-					<img src="images/Computer_Cat.jpg" alt="Computer Cat" width=500>
+					<img src="images/Computer_Cat.jpg" alt="Computer Cat" width="30%">
 					<p>Now for some customisation.</p>
 					<p>At the moment all the variables are initialised (started) at either 0 or 100. They also change be increments of 1 or -1 and do so in 1 second steps.</p>
 					<p>Customise your script a little. Maybe Pet_Tiredness can start at 200 and be reduced by 0.1 every 2 seconds, for instance</p>
@@ -450,7 +462,7 @@ End All
 				<section>
 					<section>
 						<h2>Getting the pet to talk to you.</h2>
-						<img src="images/Cheezburger.jpg" alt="I can haz Cheezburger?">
+						<img src="images/Cheezburger.jpg" alt="I can haz Cheezburger?" height="40%">
 						<p>It might be a good idea to get rid of the variables that are displayed on the game screen and instead have the pet sprite warn when it is getting hungry/thirsty or tired</p>
 						<p>We'll do it the easy way first and then make it a little tricky</p>
 						<p>Scroll down to get started.</p>
