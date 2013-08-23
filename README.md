@@ -1,12 +1,11 @@
-# How The Internet Works - A Year 7 project
+# A Virtual LOL cat- A Year 7 project
 
 ## Intro
-You can use this project from [GitHub Pages](http://marcscott.github.io/How_the_internet_works/#/), but the video's will not work in I.E
+You can use this project from [GitHub Pages](http://marcscott.github.io/my_lol_cat/#/), but the video's will not work in I.E
 You can also access the project at [Coding2Learn](http://www.coding2learn.org) in the Resources section of the site.
 Alternatively feel free to fork the project or download a zip file.
 This project is designed to be self-paced, but the instructor may wish to set targets for students to complete each section.
 An outline of potential milestones is provided below.
-Accompanying the presentation are several quizzes using [Socrative](http://www.socrative.com), for which you will need to sign up (it's free)
 
 ## Getting started
 Open up the index.html to start the project. I recommend this is made available to the students rather than being presented to them.
