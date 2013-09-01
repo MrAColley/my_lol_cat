@@ -18,7 +18,11 @@ It is recommended that students keep a learning journal as they progress through
 |------|-------------------------------|---------------|
 |1     |Making the Pet Get Hungry      |SOC-1814745    |
 |2     |Customising your LOL Cat       |SOC-1814843    |
+<<<<<<< HEAD
 |3 - ? | |Now it's your turn           |               |
+=======
+|3-?   |Now it's your turn           |               |
+>>>>>>> master
 
 
 ## Assessment
