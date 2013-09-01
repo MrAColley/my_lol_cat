@@ -1,8 +1,7 @@
 # A Virtual LOL cat- A Year 7 project
 
 ## Intro
-You can use this project from [GitHub Pages](http://marcscott.github.io/my_lol_cat/#/), but the video's will not work in I.E
-You can also access the project at [Coding2Learn](http://www.coding2learn.org) in the Resources section of the site.
+You can use this project from [GitHub Pages](http://marcscott.github.io/my_lol_cat/#/), but the video's will not work in I.E.
 Alternatively feel free to fork the project or download a zip file.
 This project is designed to be self-paced, but the instructor may wish to set targets for students to complete each section.
 An outline of potential milestones is provided below.
@@ -11,21 +10,17 @@ An outline of potential milestones is provided below.
 Open up the index.html to start the project. I recommend this is made available to the students rather than being presented to them.
 The project license (see LICENSE.md) is open, so feel free to remove the logos
 
+## Learning Journals
+It is recommended that students keep a learning journal as they progress through the activity. This can include the objectives, what they have achieved, notes on the concepts and links to specific slides.
+
 ## Proposed outline (untested as yet - will be updated)
-|Lesson|Section(s) to complete         |Quiz SOC number|
+|Lesson|Section(s) to reach            |Quiz SOC number|
 |------|-------------------------------|---------------|
-|1     |The Internet - Web Browsers    |SOC-1722958    |
-|2     |URLs and Domain Names          |SOC-1725298    |
-|3     |Modelling a DNS & Linear Search|SOC-1725562    |
-|4     |Modelling a Network            |SOC-1725728    |     |
-|5     |Modelling a Network            |SOC-1725728    |
-|6     |Extension activities           |n/a            |
-|7     |Extension activities           |n/a            |
+|1     |Making the Pet Get Hungry      |SOC-1814745    |
+|2     |Customising your LOL Cat       |SOC-1814843    |
+|3 - ? | |Now it's your turn           |               |
+
 
 ## Assessment
-As well as the Socrative quizzes, there are several potential assessment points throughout the project.
-
-1. The DNS Mini project
-2. The Linear Search project
-3. The extension activities at the end.
+As well as the two Socrative quizzes, students can be assessed on their finished projects, although the aim of this project is just to introduce some basic programming concepts to students.
 
