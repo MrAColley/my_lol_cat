@@ -17,9 +17,6 @@ _TOTAL 20 marks_
 2. Cat Sprite deleted - 1
 3. New sprite created - 1
 4. Sprite has two costumes - 1
-5. See image
-6. See image
-7. See image
-8. See image
+5 - 6. ![image](test.png)
 9. List contains 5 elements - 1
 10. See image
